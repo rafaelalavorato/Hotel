@@ -10,15 +10,15 @@ O sistema oferece as seguintes funcionalidades e regras de negócio:
 3. **Calcular Valor da Diária**: O sistema calcula o valor da diária com base no número de dias da reserva e no valor da diária da suíte. Se a reserva for maior ou igual a 10 dias, um desconto de 10% é aplicado.
 4. **Listar Reservas**: O usuário pode visualizar as reservas feitas, com informações sobre a suíte, hóspedes, dias de estadia e o valor total da diária.
 
-**Regras de Negócio Adicionais**:
-*Capacidade da Suíte*: Não é possível realizar uma reserva em uma suíte com capacidade menor do que o número de hóspedes.
-*Método ObterQuantidadeHospedes*: Retorna a quantidade total de hóspedes na reserva.
-*Método CalcularValorDiaria*: Calcula o valor total da diária, aplicando o desconto de 10% para reservas de 10 dias ou mais.
+**Regras de Negócio Adicionais**: <br>
+*Capacidade da Suíte*: Não é possível realizar uma reserva em uma suíte com capacidade menor do que o número de hóspedes. <br>
+*Método ObterQuantidadeHospedes*: Retorna a quantidade total de hóspedes na reserva. <br>
+*Método CalcularValorDiaria*: Calcula o valor total da diária, aplicando o desconto de 10% para reservas de 10 dias ou mais. <br>
 
-## Estrutura de Classes
-Pessoa: Representa um hóspede, com atributos como nome e outros dados.
-Suíte: Representa as suítes do hotel, com informações como tipo, capacidade e valor da diária.
-Reserva: Gerencia a relação entre hóspedes e suítes, calcula a quantidade de hóspedes e o valor da diária, aplicando o desconto conforme o período de reserva.
+## Estrutura de Classes <br>
+Pessoa: Representa um hóspede, com atributos como nome e outros dados. <br>
+Suíte: Representa as suítes do hotel, com informações como tipo, capacidade e valor da diária. <br>
+Reserva: Gerencia a relação entre hóspedes e suítes, calcula a quantidade de hóspedes e o valor da diária, aplicando o desconto conforme o período de reserva. <br>
 
 ## Diagrama de Classe
 ![Diagrama de classe do sistema de reservas](diagrama_classe_hotel.png)
